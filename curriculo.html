@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Curriculum Vitae - Diana Clementino Caldas</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 30px;
+            background-color: #eef1f5;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #333;
+        }
+
+        .curriculo {
+            max-width: 900px;
+            margin: auto;
+            background-color: #ffffff;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        /* CABEÇALHO */
+
+        header {
+            background: linear-gradient(135deg, #123c69, #087e8b);
+            color: white;
+            padding: 40px;
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+
+        .foto {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid white;
+            background-color: #ddd;
+        }
+
+        .cabecalho-texto h1 {
+            margin: 0 0 10px;
+            font-size: 36px;
+        }
+
+        .cabecalho-texto p {
+            margin: 5px 0;
+            font-size: 18px;
+        }
+
+        .conteudo {
+            padding: 35px 45px;
+        }
+
+        /* SEÇÕES */
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #123c69;
+            font-size: 22px;
+            border-bottom: 2px solid #087e8b;
+            padding-bottom: 8px;
+            margin-bottom: 18px;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        /* DADOS PESSOAIS */
+
+        .dados {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+        }
+
+        .dado {
+            background-color: #f5f7fa;
+            padding: 12px;
+            border-radius: 6px;
+        }
+
+        .dado strong {
+            color: #123c69;
+        }
+
+        /* EXPERIÊNCIA */
+
+        .experiencia {
+            border-left: 4px solid #087e8b;
+            padding-left: 18px;
+        }
+
+        .experiencia h3 {
+            color: #123c69;
+            margin-bottom: 5px;
+        }
+
+        .periodo {
+            color: #666;
+            font-style: italic;
+            margin-bottom: 12px;
+        }
+
+        /* FORMAÇÃO */
+
+        .formacao {
+            border-left: 4px solid #123c69;
+            padding-left: 18px;
+            margin-bottom: 20px;
+        }
+
+        .formacao h3 {
+            margin-bottom: 5px;
+            color: #123c69;
+        }
+
+        /* LISTAS */
+
+        ul {
+            line-height: 1.8;
+        }
+
+        /* LINKS */
+
+        a {
+            color: #087e8b;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .linkedin {
+            display: inline-block;
+            background-color: #0A66C2;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 6px;
+            margin-top: 8px;
+        }
+
+        .linkedin:hover {
+            background-color: #084d92;
+            text-decoration: none;
+        }
+
+        /* BOTÃO FORMULÁRIO */
+
+        .formulario {
+            display: inline-block;
+            background-color: #123c69;
+            color: white;
+            padding: 14px 25px;
+            border-radius: 6px;
+            margin-top: 10px;
+        }
+
+        .formulario:hover {
+            background-color: #087e8b;
+            text-decoration: none;
+        }
+
+        /* RODAPÉ */
+
+        footer {
+            background-color: #123c69;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* RESPONSIVO */
+
+        @media (max-width: 650px) {
+
+            body {
+                padding: 10px;
+            }
+
+            header {
+                flex-direction: column;
+                text-align: center;
+                padding: 30px 20px;
+            }
+
+            .cabecalho-texto h1 {
+                font-size: 28px;
+            }
+
+            .conteudo {
+                padding: 25px 20px;
+            }
+
+            .dados {
+                grid-template-columns: 1fr;
+            }
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="curriculo">
+
+        <!-- =========================
+             CABEÇALHO
+        ========================== -->
+
+        <header>
+
+            <!--
+                COLOQUE A FOTO DO LINKEDIN
+                NA MESMA PASTA DESTE ARQUIVO.
+
+                Renomeie a foto para:
+                foto-linkedin.jpg
+            -->
+
+            <img
+                src="1746546786989.jpg"
+                alt="Foto de perfil de Diana Clementino Caldas"
+                class="foto">
+
+            <div class="cabecalho-texto">
+
+                <h1>Diana Clementino Caldas</h1>
+
+                <p>
+                    <strong>Profissional de Recursos Humanos</strong>
+                </p>
+
+                <p>
+                    Em transição de carreira para Tecnologia da Informação
+                </p>
+
+            </div>
+
+        </header>
+
+
+        <div class="conteudo">
+
+
+            <!-- =========================
+                 OBJETIVO
+            ========================== -->
+
+            <section>
+
+                <h2>Objetivo Profissional</h2>
+
+                <p>
+                    Profissional formada em Recursos Humanos, com experiência
+                    em supervisão e gestão de atividades em ambiente clínico,
+                    atualmente em processo de transição de carreira para a área
+                    de Tecnologia da Informação.
+                </p>
+
+                <p>
+                    Busco uma oportunidade para ingressar no mercado de TI,
+                    desenvolver conhecimentos técnicos e aplicar minha
+                    experiência profissional, capacidade de organização,
+                    comunicação, liderança e resolução de problemas em novos
+                    desafios relacionados à tecnologia.
+                </p>
+
+                <p>
+                    Atualmente, estou cursando <strong>Análise e Desenvolvimento
+                    de Sistemas (ADS)</strong>, buscando ampliar minha formação
+                    e construir uma nova trajetória profissional na área de
+                    tecnologia.
+                </p>
+
+            </section>
+
+
+            <!-- =========================
+                 DADOS PESSOAIS
+            ========================== -->
+
+            <section>
+
+                <h2>Dados Pessoais</h2>
+
+                <div class="dados">
+
+                    <div class="dado">
+                        <strong>Nome:</strong><br>
+                        Diana Clementino Caldas
+                    </div>
+
+                    <div class="dado">
+                        <strong>Idade:</strong><br>
+                        30 anos
+                    </div>
+
+                    <div class="dado">
+                        <strong>Nacionalidade:</strong><br>
+                        Brasileira
+                    </div>
+
+                    <div class="dado">
+                        <strong>Telefone:</strong><br>
+                        (11) 95577-5074
+                    </div>
+
+                    <div class="dado">
+                        <strong>E-mail:</strong><br>
+                        dianacaldas@icloud.com
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- =========================
+                 HISTÓRICO PROFISSIONAL
+            ========================== -->
+
+            <section>
+
+                <h2>Histórico Profissional</h2>
+
+                <div class="experiencia">
+
+                    <h3>
+                        Supervisora
+                    </h3>
+
+                    <p>
+                        <strong>Clínica Dr. Raimundo Nunes</strong>
+                    </p>
+
+                    <p class="periodo">
+                        2019 – Atual
+                    </p>
+
+                    <p>
+                        Atuação na supervisão das atividades da clínica,
+                        acompanhamento de processos, organização das rotinas
+                        profissionais e suporte à equipe.
+                    </p>
+
+                    <p>
+                        A experiência profissional proporcionou o
+                        desenvolvimento de competências como liderança,
+                        comunicação, organização, responsabilidade,
+                        acompanhamento de processos e resolução de problemas.
+                    </p>
+
+                </div>
+
+            </section>
+
+
+            <!-- =========================
+                 FORMAÇÃO ACADÊMICA
+            ========================== -->
+
+            <section>
+
+                <h2>Formação Acadêmica</h2>
+
+                <div class="formacao">
+
+                    <h3>
+                        Análise e Desenvolvimento de Sistemas
+                    </h3>
+
+                    <p>
+                        <strong>Status:</strong>
+                        Em andamento
+                    </p>
+
+                </div>
+
+
+                <div class="formacao">
+
+                    <h3>
+                        Recursos Humanos
+                    </h3>
+
+                    <p>
+                        <strong>Status:</strong>
+                        Formação concluída
+                    </p>
+
+                </div>
+
+            </section>
+
+
+            <!-- =========================
+                 CURSOS COMPLEMENTARES
+            ========================== -->
+
+            <section>
+
+                <h2>Cursos Complementares</h2>
+
+                <ul>
+
+                    <li>
+                        Cursos e capacitações relacionados à área de
+                        Tecnologia da Informação — em desenvolvimento.
+                    </li>
+
+                    <li>
+                        Desenvolvimento de conhecimentos em tecnologia
+                        através do curso de Análise e Desenvolvimento
+                        de Sistemas.
+                    </li>
+
+                </ul>
+
+                <p>
+                    <em>
+                        Novos cursos e certificações poderão ser adicionados
+                        conforme a evolução da formação profissional.
+                    </em>
+                </p>
+
+            </section>
+
+
+            <!-- =========================
+                 COMPETÊNCIAS
+            ========================== -->
+
+            <section>
+
+                <h2>Competências</h2>
+
+                <ul>
+
+                    <li>Organização e planejamento</li>
+
+                    <li>Gestão e supervisão de equipes</li>
+
+                    <li>Comunicação interpessoal</li>
+
+                    <li>Resolução de problemas</li>
+
+                    <li>Responsabilidade e comprometimento</li>
+
+                    <li>Facilidade para aprendizado</li>
+
+                    <li>Interesse em tecnologia</li>
+
+                    <li>Adaptabilidade e desenvolvimento profissional</li>
+
+                </ul>
+
+            </section>
+
+
+            <!-- =========================
+                 LINKEDIN
+            ========================== -->
+
+            <section>
+
+                <h2>LinkedIn</h2>
+
+                <p>
+                    Confira meu perfil profissional no LinkedIn:
+                </p>
+
+                <a
+                    class="linkedin"
+                    href="https://br.linkedin.com/in/diana-clementino-caldas-590366364"
+                    target="_blank"
+                    rel="noopener noreferrer">
+
+                    🔗 Acessar meu LinkedIn
+
+                </a>
+
+            </section>
+
+
+            <!-- =========================
+                 FORMULÁRIO
+            ========================== -->
+
+            <section>
+
+                <h2>Formulário</h2>
+
+                <p>
+                    Para acessar o formulário com as informações
+                    solicitadas anteriormente, clique no botão abaixo:
+                </p>
+
+                <!--
+                    O arquivo index.html deve estar
+                    na mesma pasta deste currículo.
+                -->
+
+                <a
+                    href="index.html"
+                    class="formulario">
+
+                    📋 Acessar Formulário
+
+                </a>
+
+            </section>
+
+        </div>
+
+
+        <!-- =========================
+             RODAPÉ
+        ========================== -->
+
+        <footer>
+
+            <p>
+                <strong>Diana Clementino Caldas</strong>
+            </p>
+
+            <p>
+                Curriculum Vitae
+            </p>
+
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
